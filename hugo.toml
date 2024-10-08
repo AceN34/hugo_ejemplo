@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Web de Jorge'
+
+theme = "relearn"
+
+[[params.themeVariant]]
+    identifier = 'neon'
+
+[[params.themeVariant]]
+    identifier = 'learn'
+
+[[params.themeVariant]]
+    identifier = 'blue'
