@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal :: Web de Jorge</title>
+    <link>https://example.org/personal/index.html</link>
+    <description>SOBRE MI Esta página tiene informacion sobre mi experiencia técnica&#xA;Este texto lo quiero en color verde</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Oct 2024 13:24:33 +0200</lastBuildDate>
+    <atom:link href="https://example.org/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programacion</title>
+      <link>https://example.org/personal/01.programacion/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 13:24:33 +0200</pubDate>
+      <guid>https://example.org/personal/01.programacion/index.html</guid>
+      <description>Programación Código de php</description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://example.org/personal/02.markdown/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 13:24:33 +0200</pubDate>
+      <guid>https://example.org/personal/02.markdown/index.html</guid>
+      <description>Markdown Aquí describiré como usar markdown</description>
+    </item>
+    <item>
+      <title>Tema2</title>
+      <link>https://example.org/personal/03.tema2/index.html</link>
+      <pubDate>Fri, 04 Oct 2024 13:24:33 +0200</pubDate>
+      <guid>https://example.org/personal/03.tema2/index.html</guid>
+      <description>Mis aficiones Comentaré lo que me gusta</description>
+    </item>
+  </channel>
+</rss>
