@@ -1,0 +1,31 @@
+{{$title := .Get "title" | default "Objetivos"}}
+{{ $sub_title := .Get "sub_title" | default "Qué veremos aqui" }}
+<div style="background-color:#3760f8; border 1px red">
+    <div style="background-color:#0ad1fb">
+        <i class="fa-solid fa-check"></i>
+        <h1> {{$title}}</h1>
+    </div>
+    <div>
+        <h2> {{$sub_title}}</h2>
+    </div>
+    <div>
+        <ul>
+            {{ range (split .Inner "\n")}}
+            <li> {{ . }} </li>
+            {{ end }}
+        </ul>
+    </div>
+
+    <p>Otra forma</p>
+
+    <div>
+        <ul>
+            {{ $lineas := split .Inner "\n"}}
+
+            {{range $linea := $lineas}}
+
+            <li> {{ $linea }} </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
